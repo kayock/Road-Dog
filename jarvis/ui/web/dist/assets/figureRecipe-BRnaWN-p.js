@@ -1,0 +1,2902 @@
+var catalog_default = {
+	contract: 1,
+	styles: {
+		"modern": "Everyday people — offices, streets, workshops",
+		"fantasy": "Knights, mages, rangers, barbarians, undead",
+		"cartoon": "Chunky, big-headed, kart-racer proportions",
+		"animal": "Four-legged companions",
+		"scifi": "Robots, suits, visors",
+		"spirit": "Ghosts and familiars",
+		"custom": "Imported by the person"
+	},
+	bases: [
+		{
+			"id": "biped/android",
+			"file": "biped-android.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "android",
+			"label": "Android",
+			"styles": ["scifi"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#c9d2d8",
+				"skin_shade": "#a3adb5",
+				"hair": "#5a646b",
+				"eyes": "#101820",
+				"primary": "#2f6f8f",
+				"primary_shade": "#1f4a60",
+				"secondary": "#cdd6db",
+				"secondary_shade": "#9aa5ab",
+				"accent": "#4fd1c5",
+				"metal": "#b6c0c6",
+				"leather": "#39444b",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#1f4a60",
+				"eye_white": "#e6ecef",
+				"emissive": "#6ff2e3"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "slim",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Android",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `android`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 324,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.39
+		},
+		{
+			"id": "biped/athlete",
+			"file": "biped-athlete.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "athlete",
+			"label": "Athlete",
+			"styles": ["modern"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#8d5b3f",
+				"skin_shade": "#6f4630",
+				"hair": "#1c1512",
+				"eyes": "#1b2427",
+				"primary": "#e04f5f",
+				"primary_shade": "#2b3441",
+				"secondary": "#f4f6f7",
+				"secondary_shade": "#cfd4d8",
+				"accent": "#f4f6f7",
+				"metal": "#9aa3a8",
+				"leather": "#5b4130",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#f4f6f7",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "slim",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Athlete",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `athlete`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 360,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.18
+		},
+		{
+			"id": "biped/barbarian",
+			"file": "biped-barbarian.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "barbarian",
+			"label": "Barbarian",
+			"styles": ["fantasy"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#f6bf9a",
+				"skin_shade": "#d9a37c",
+				"hair": "#918880",
+				"eyes": "#141a1c",
+				"primary": "#4f6f86",
+				"primary_shade": "#3a5266",
+				"secondary": "#978f86",
+				"secondary_shade": "#665850",
+				"accent": "#e8c46b",
+				"metal": "#7a8388",
+				"leather": "#93523e",
+				"fur": "#c5cfd3",
+				"fur_shade": "#8e857d",
+				"shoes": "#675950",
+				"eye_white": "#e6ecef",
+				"emissive": "#ffd166"
+			},
+			"family": "kaykit-adventurers",
+			"fitSize": null,
+			"source": "KayKit Character Pack: Adventurers 1.0 / Barbarian",
+			"license": "CC0-1.0",
+			"triangles": 4045,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.1863
+		},
+		{
+			"id": "biped/blockhead",
+			"file": "biped-blockhead.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "blockhead",
+			"label": "Blockhead",
+			"styles": ["cartoon"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#c98b62",
+				"skin_shade": "#c9926d",
+				"hair": "#3b2a20",
+				"eyes": "#1b2427",
+				"primary": "#7bb26a",
+				"primary_shade": "#588a49",
+				"secondary": "#5d4a3a",
+				"secondary_shade": "#666b71",
+				"accent": "#e0533f",
+				"metal": "#9aa3a8",
+				"leather": "#5b4130",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#3a2f28",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "broad",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Blockhead",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `blockhead`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 324,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.15
+		},
+		{
+			"id": "biped/casual",
+			"file": "biped-casual.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "casual",
+			"label": "Casual",
+			"styles": ["modern"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#d8a37c",
+				"skin_shade": "#b98763",
+				"hair": "#241a15",
+				"eyes": "#1b2427",
+				"primary": "#3f7d6a",
+				"primary_shade": "#2c5a4c",
+				"secondary": "#3d5a80",
+				"secondary_shade": "#2b3f5a",
+				"accent": "#e8c46b",
+				"metal": "#9aa3a8",
+				"leather": "#4a3526",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#e9e5dc",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "slim",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Casual",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `casual`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 396,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.18
+		},
+		{
+			"id": "biped/chibi",
+			"file": "biped-chibi.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "chibi",
+			"label": "Chibi",
+			"styles": ["cartoon"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#f6cdaa",
+				"skin_shade": "#dcab86",
+				"hair": "#c9522f",
+				"eyes": "#241d1a",
+				"primary": "#e2604a",
+				"primary_shade": "#b8452f",
+				"secondary": "#f6d98a",
+				"secondary_shade": "#d9b45f",
+				"accent": "#4fb7a5",
+				"metal": "#a8b2b7",
+				"leather": "#8a5a38",
+				"fur": "#c98b62",
+				"fur_shade": "#9b6242",
+				"shoes": "#3b4a63",
+				"eye_white": "#ffffff",
+				"emissive": "#ffe066"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "broad",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Chibi",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `chibi`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 348,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.18
+		},
+		{
+			"id": "biped/dwarf",
+			"file": "biped-dwarf.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "dwarf",
+			"label": "Dwarf",
+			"styles": ["fantasy"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#e0a074",
+				"skin_shade": "#c9926d",
+				"hair": "#a8492a",
+				"eyes": "#1b2427",
+				"primary": "#7a4a2c",
+				"primary_shade": "#5a3520",
+				"secondary": "#4f6b3f",
+				"secondary_shade": "#3a4f2e",
+				"accent": "#d9a441",
+				"metal": "#9aa3a8",
+				"leather": "#4a3223",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#3a2a1e",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "broad",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Dwarf",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `dwarf`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 360,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.18
+		},
+		{
+			"id": "biped/elf",
+			"file": "biped-elf.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "elf",
+			"label": "Elf",
+			"styles": ["fantasy"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#f2d3b6",
+				"skin_shade": "#d6b195",
+				"hair": "#e6d29a",
+				"eyes": "#1b2427",
+				"primary": "#3f6d52",
+				"primary_shade": "#2b4e39",
+				"secondary": "#6b8f5f",
+				"secondary_shade": "#4d6b44",
+				"accent": "#d9c56b",
+				"metal": "#9aa3a8",
+				"leather": "#5b4130",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#4a3a26",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "slim",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Elf",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `elf`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 396,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.18
+		},
+		{
+			"id": "biped/knight",
+			"file": "biped-knight.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "knight",
+			"label": "Knight",
+			"styles": ["fantasy"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#f6c19d",
+				"skin_shade": "#d9a37c",
+				"hair": "#e0b989",
+				"eyes": "#141a1c",
+				"primary": "#c4212b",
+				"primary_shade": "#3f4549",
+				"secondary": "#95a1a7",
+				"secondary_shade": "#b9c5c8",
+				"accent": "#e8c46b",
+				"metal": "#727c80",
+				"leather": "#9c5b45",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#484f53",
+				"eye_white": "#e6ecef",
+				"emissive": "#ffd166"
+			},
+			"family": "kaykit-adventurers",
+			"fitSize": null,
+			"source": "KayKit Character Pack: Adventurers 1.0 / Knight",
+			"license": "CC0-1.0",
+			"triangles": 4148,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.3145
+		},
+		{
+			"id": "biped/mage",
+			"file": "biped-mage.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "mage",
+			"label": "Mage",
+			"styles": ["fantasy"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#f5ba95",
+				"skin_shade": "#d99a75",
+				"hair": "#252124",
+				"eyes": "#1b2427",
+				"primary": "#4a4673",
+				"primary_shade": "#242242",
+				"secondary": "#b25729",
+				"secondary_shade": "#cfd7da",
+				"accent": "#2f6c73",
+				"metal": "#8d989e",
+				"leather": "#9a5944",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#995843",
+				"eye_white": "#e6ecef",
+				"emissive": "#ffd166"
+			},
+			"family": "kaykit-adventurers",
+			"fitSize": null,
+			"source": "KayKit Character Pack: Adventurers 1.0 / Mage",
+			"license": "CC0-1.0",
+			"triangles": 4029,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.2027
+		},
+		{
+			"id": "biped/medic",
+			"file": "biped-medic.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "medic",
+			"label": "Medic",
+			"styles": ["modern"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#f1c4a0",
+				"skin_shade": "#c9926d",
+				"hair": "#6b6b6b",
+				"eyes": "#1b2427",
+				"primary": "#4f8fb0",
+				"primary_shade": "#2b3441",
+				"secondary": "#f6f8f8",
+				"secondary_shade": "#d6dbdd",
+				"accent": "#d2453c",
+				"metal": "#9aa3a8",
+				"leather": "#5b4130",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#241f1c",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "slim",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Medic",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `medic`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 396,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.18
+		},
+		{
+			"id": "biped/monk",
+			"file": "biped-monk.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "monk",
+			"label": "Monk",
+			"styles": ["fantasy"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#d8a37c",
+				"skin_shade": "#c9926d",
+				"hair": "#3b2a20",
+				"eyes": "#1b2427",
+				"primary": "#8a5a34",
+				"primary_shade": "#66401f",
+				"secondary": "#c4a06a",
+				"secondary_shade": "#666b71",
+				"accent": "#d9a441",
+				"metal": "#9aa3a8",
+				"leather": "#4a3223",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#3a2a1e",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "slim",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Monk",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `monk`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 336,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.15
+		},
+		{
+			"id": "biped/office",
+			"file": "biped-office.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "office",
+			"label": "Office",
+			"styles": ["modern"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#f1c4a0",
+				"skin_shade": "#d3a382",
+				"hair": "#3b2a20",
+				"eyes": "#1b2427",
+				"primary": "#f2f2ee",
+				"primary_shade": "#d3d3cd",
+				"secondary": "#1f2a44",
+				"secondary_shade": "#141c2e",
+				"accent": "#a8322f",
+				"metal": "#9aa3a8",
+				"leather": "#3a2a20",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#241f1c",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "slim",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Office",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `office`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 372,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.18
+		},
+		{
+			"id": "biped/pilot",
+			"file": "biped-pilot.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "pilot",
+			"label": "Pilot",
+			"styles": ["scifi"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#e8b48c",
+				"skin_shade": "#c9926d",
+				"hair": "#3b2a20",
+				"eyes": "#1b2427",
+				"primary": "#e8a33d",
+				"primary_shade": "#b57a24",
+				"secondary": "#dfe4e8",
+				"secondary_shade": "#a9b2b8",
+				"accent": "#e8a33d",
+				"metal": "#b6c0c6",
+				"leather": "#4a3a2c",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#2b2320",
+				"eye_white": "#f4f7f8",
+				"emissive": "#7fdcff"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "slim",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Pilot",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `pilot`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 288,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.15
+		},
+		{
+			"id": "biped/rogue",
+			"file": "biped-rogue.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "rogue",
+			"label": "Ranger",
+			"styles": ["fantasy"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#f4b68f",
+				"skin_shade": "#d99a75",
+				"hair": "#9e5d47",
+				"eyes": "#1b2427",
+				"primary": "#096153",
+				"primary_shade": "#07483d",
+				"secondary": "#b16f51",
+				"secondary_shade": "#008c55",
+				"accent": "#e8c46b",
+				"metal": "#919da2",
+				"leather": "#9a5944",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#4a2e22",
+				"eye_white": "#e6ecef",
+				"emissive": "#ffd166"
+			},
+			"family": "kaykit-adventurers",
+			"fitSize": null,
+			"source": "KayKit Character Pack: Adventurers 1.0 / Rogue",
+			"license": "CC0-1.0",
+			"triangles": 4263,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.187
+		},
+		{
+			"id": "biped/scientist",
+			"file": "biped-scientist.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "scientist",
+			"label": "Scientist",
+			"styles": ["scifi"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#e9c3a3",
+				"skin_shade": "#c9926d",
+				"hair": "#5a4638",
+				"eyes": "#1b2427",
+				"primary": "#4a7fb0",
+				"primary_shade": "#2b3441",
+				"secondary": "#f6f8f8",
+				"secondary_shade": "#c3c9cc",
+				"accent": "#5ad1c0",
+				"metal": "#9aa3a8",
+				"leather": "#3a3f45",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#2b2f33",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "slim",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Scientist",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `scientist`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 420,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.18
+		},
+		{
+			"id": "biped/toon",
+			"file": "biped-toon.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "toon",
+			"label": "Toon",
+			"styles": ["cartoon"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#f6cdaa",
+				"skin_shade": "#c9926d",
+				"hair": "#1c1512",
+				"eyes": "#1b2427",
+				"primary": "#d63d47",
+				"primary_shade": "#2b3441",
+				"secondary": "#ffffff",
+				"secondary_shade": "#d9d9d9",
+				"accent": "#f5c542",
+				"metal": "#9aa3a8",
+				"leather": "#5b4130",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#f2b43a",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "slim",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Toon",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `toon`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 348,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.18
+		},
+		{
+			"id": "biped/trooper",
+			"file": "biped-trooper.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "trooper",
+			"label": "Trooper",
+			"styles": ["scifi"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#e8b48c",
+				"skin_shade": "#c9926d",
+				"hair": "#3b2a20",
+				"eyes": "#1b2427",
+				"primary": "#2b3a4a",
+				"primary_shade": "#1c2733",
+				"secondary": "#e6eaec",
+				"secondary_shade": "#9aa3a8",
+				"accent": "#d84b3a",
+				"metal": "#6f797f",
+				"leather": "#5b4130",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#2b2320",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ff6a4d"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "broad",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Trooper",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `trooper`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 288,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.15
+		},
+		{
+			"id": "biped/worker",
+			"file": "biped-worker.glb",
+			"archetype": "biped",
+			"variant": "medium",
+			"base": "worker",
+			"label": "Worker",
+			"styles": ["modern"],
+			"heightM": 1.75,
+			"palette": {
+				"skin": "#d8a37c",
+				"skin_shade": "#c9926d",
+				"hair": "#4a3529",
+				"eyes": "#1b2427",
+				"primary": "#c9d2d8",
+				"primary_shade": "#2b3441",
+				"secondary": "#3f6d9e",
+				"secondary_shade": "#2c4d70",
+				"accent": "#f2b43a",
+				"metal": "#9aa3a8",
+				"leather": "#6b4a33",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#3a2c22",
+				"eye_white": "#f4f7f8",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-biped",
+			"fitSize": "broad",
+			"clipsFrom": "biped-clips.glb",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / Worker",
+			"license": "first-party",
+			"note": "body modelled by humanoid_builder.py (profile `worker`); rig and clips from KayKit Character Pack: Adventurers 1.0 (CC0-1.0) / Rogue, every donor mesh deleted",
+			"triangles": 396,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk",
+				"wave",
+				"work"
+			],
+			"height_m": 2.18
+		},
+		{
+			"id": "quadruped/bear",
+			"file": "quadruped-bear.glb",
+			"archetype": "quadruped",
+			"variant": "default",
+			"base": "bear",
+			"label": "Bear",
+			"styles": ["animal"],
+			"heightM": .9,
+			"palette": {
+				"skin": "#f0b5a8",
+				"skin_shade": "#d29488",
+				"hair": "#b8532a",
+				"eyes": "#1a1210",
+				"primary": "#4f7d4a",
+				"primary_shade": "#375c33",
+				"secondary": "#3a2a20",
+				"secondary_shade": "#d8d0c2",
+				"accent": "#d9a441",
+				"metal": "#9aa3a8",
+				"leather": "#6b4a33",
+				"fur": "#6b4630",
+				"fur_shade": "#a98157",
+				"shoes": "#2b2320",
+				"eye_white": "#fbf8f2",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-quadruped",
+			"fitSize": null,
+			"clipsFrom": "quadruped-clips.glb",
+			"source": "Road Dog animals (first-party) / Bear",
+			"license": "first-party",
+			"note": "rig, body and clips written by quadruped_builder.py (shape `bear`); no external source",
+			"triangles": 396,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk"
+			],
+			"height_m": .76
+		},
+		{
+			"id": "quadruped/cat",
+			"file": "quadruped-cat.glb",
+			"archetype": "quadruped",
+			"variant": "default",
+			"base": "cat",
+			"label": "Cat",
+			"styles": ["animal"],
+			"heightM": .9,
+			"palette": {
+				"skin": "#f0b5a8",
+				"skin_shade": "#d29488",
+				"hair": "#b8532a",
+				"eyes": "#3fae6a",
+				"primary": "#c2503f",
+				"primary_shade": "#96392b",
+				"secondary": "#f0ece4",
+				"secondary_shade": "#d8d0c2",
+				"accent": "#7fd1a8",
+				"metal": "#9aa3a8",
+				"leather": "#6b4a33",
+				"fur": "#3c3a42",
+				"fur_shade": "#8e8a96",
+				"shoes": "#2b2320",
+				"eye_white": "#fbf8f2",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-quadruped",
+			"fitSize": null,
+			"clipsFrom": "quadruped-clips.glb",
+			"source": "Road Dog animals (first-party) / Cat",
+			"license": "first-party",
+			"note": "rig, body and clips written by quadruped_builder.py (shape `cat`); no external source",
+			"triangles": 396,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk"
+			],
+			"height_m": .8
+		},
+		{
+			"id": "quadruped/dog",
+			"file": "quadruped-dog.glb",
+			"archetype": "quadruped",
+			"variant": "default",
+			"base": "dog",
+			"label": "Dog",
+			"styles": ["animal"],
+			"heightM": .9,
+			"palette": {
+				"skin": "#f0b5a8",
+				"skin_shade": "#d29488",
+				"hair": "#b8532a",
+				"eyes": "#2a1d14",
+				"primary": "#3f6d9e",
+				"primary_shade": "#2c4d70",
+				"secondary": "#f4efe6",
+				"secondary_shade": "#d8d0c2",
+				"accent": "#d24b3a",
+				"metal": "#9aa3a8",
+				"leather": "#6b4a33",
+				"fur": "#a9793f",
+				"fur_shade": "#e8dcc6",
+				"shoes": "#2b2320",
+				"eye_white": "#fbf8f2",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-quadruped",
+			"fitSize": null,
+			"clipsFrom": "quadruped-clips.glb",
+			"source": "Road Dog animals (first-party) / Dog",
+			"license": "first-party",
+			"note": "rig, body and clips written by quadruped_builder.py (shape `dog`); no external source",
+			"triangles": 396,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk"
+			],
+			"height_m": .78
+		},
+		{
+			"id": "quadruped/fox",
+			"file": "quadruped-fox.glb",
+			"archetype": "quadruped",
+			"variant": "default",
+			"base": "fox",
+			"label": "Fox",
+			"styles": ["animal"],
+			"heightM": .9,
+			"palette": {
+				"skin": "#f0b5a8",
+				"skin_shade": "#d29488",
+				"hair": "#b8532a",
+				"eyes": "#1a1614",
+				"primary": "#2f7d8f",
+				"primary_shade": "#1f5a68",
+				"secondary": "#f4efe6",
+				"secondary_shade": "#d8d0c2",
+				"accent": "#f2c14e",
+				"metal": "#9aa3a8",
+				"leather": "#6b4a33",
+				"fur": "#c8622b",
+				"fur_shade": "#f4efe6",
+				"shoes": "#2b2320",
+				"eye_white": "#fbf8f2",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-quadruped",
+			"fitSize": null,
+			"clipsFrom": "quadruped-clips.glb",
+			"source": "Road Dog animals (first-party) / Fox",
+			"license": "first-party",
+			"note": "rig, body and clips written by quadruped_builder.py (shape `fox`); no external source",
+			"triangles": 396,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk"
+			],
+			"height_m": .88
+		},
+		{
+			"id": "quadruped/rabbit",
+			"file": "quadruped-rabbit.glb",
+			"archetype": "quadruped",
+			"variant": "default",
+			"base": "rabbit",
+			"label": "Rabbit",
+			"styles": ["animal"],
+			"heightM": .9,
+			"palette": {
+				"skin": "#f0b5b8",
+				"skin_shade": "#d29488",
+				"hair": "#b8532a",
+				"eyes": "#4a2e2a",
+				"primary": "#7a5ba8",
+				"primary_shade": "#5a3f82",
+				"secondary": "#f6f2ea",
+				"secondary_shade": "#d8d0c2",
+				"accent": "#e8a0b0",
+				"metal": "#9aa3a8",
+				"leather": "#6b4a33",
+				"fur": "#d9cfc2",
+				"fur_shade": "#f6f2ea",
+				"shoes": "#2b2320",
+				"eye_white": "#fbf8f2",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-quadruped",
+			"fitSize": null,
+			"clipsFrom": "quadruped-clips.glb",
+			"source": "Road Dog animals (first-party) / Rabbit",
+			"license": "first-party",
+			"note": "rig, body and clips written by quadruped_builder.py (shape `rabbit`); no external source",
+			"triangles": 396,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk"
+			],
+			"height_m": 1.06
+		},
+		{
+			"id": "quadruped/wolf",
+			"file": "quadruped-wolf.glb",
+			"archetype": "quadruped",
+			"variant": "default",
+			"base": "wolf",
+			"label": "Wolf",
+			"styles": ["animal"],
+			"heightM": .9,
+			"palette": {
+				"skin": "#f0b5a8",
+				"skin_shade": "#d29488",
+				"hair": "#b8532a",
+				"eyes": "#d8c24a",
+				"primary": "#c9922f",
+				"primary_shade": "#9a6d1f",
+				"secondary": "#e4e8ec",
+				"secondary_shade": "#d8d0c2",
+				"accent": "#8fb8d8",
+				"metal": "#9aa3a8",
+				"leather": "#6b4a33",
+				"fur": "#6d7580",
+				"fur_shade": "#c6ccd2",
+				"shoes": "#2b2320",
+				"eye_white": "#fbf8f2",
+				"emissive": "#ffd166"
+			},
+			"family": "jarvis-quadruped",
+			"fitSize": null,
+			"clipsFrom": "quadruped-clips.glb",
+			"source": "Road Dog animals (first-party) / Wolf",
+			"license": "first-party",
+			"note": "rig, body and clips written by quadruped_builder.py (shape `wolf`); no external source",
+			"triangles": 396,
+			"clips": [
+				"celebrate",
+				"idle",
+				"run",
+				"sit",
+				"sleep",
+				"talk",
+				"walk"
+			],
+			"height_m": .86
+		},
+		{
+			"id": "spirit/gigi",
+			"file": "spirit-gigi.glb",
+			"archetype": "spirit",
+			"variant": "default",
+			"base": "gigi",
+			"label": "Gigi",
+			"styles": ["spirit"],
+			"heightM": 1.9,
+			"palette": {
+				"skin": "#f4b68f",
+				"skin_shade": "#d99a75",
+				"hair": "#9e5d47",
+				"eyes": "#050505",
+				"primary": "#0e0e0e",
+				"primary_shade": "#5a5a5a",
+				"secondary": "#ffffff",
+				"secondary_shade": "#c9c9c9",
+				"accent": "#ffd166",
+				"metal": "#919da2",
+				"leather": "#9a5944",
+				"fur": "#b87556",
+				"fur_shade": "#8d4c39",
+				"shoes": "#4a2e22",
+				"eye_white": "#ffffff",
+				"emissive": "#ffffff"
+			},
+			"family": "gigi",
+			"fitSize": null,
+			"source": "Gigi mascot (first-party) / Gigi",
+			"license": "first-party",
+			"triangles": 3540,
+			"clips": [
+				"celebrate",
+				"idle",
+				"sleep",
+				"talk",
+				"walk",
+				"wave"
+			],
+			"height_m": 1.8967
+		}
+	],
+	parts: [
+		{
+			"id": "back-backpack",
+			"file": "parts/biped/back-backpack.glb",
+			"archetype": "biped",
+			"slot": "back",
+			"attach": "chest",
+			"label": "Backpack",
+			"styles": [
+				"modern",
+				"cartoon",
+				"scifi"
+			],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / back-backpack",
+			"license": "first-party",
+			"palette_cells": {
+				"leather": 18,
+				"secondary": 6
+			},
+			"triangles": 48,
+			"two_sided": false
+		},
+		{
+			"id": "back-blanket",
+			"file": "parts/quadruped/back-blanket.glb",
+			"archetype": "quadruped",
+			"slot": "back",
+			"attach": "chest",
+			"label": "Blanket",
+			"styles": ["animal"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "fox",
+			"source": "Road Dog animals (first-party) / back-blanket",
+			"license": "first-party",
+			"palette_cells": {
+				"primary": 6,
+				"accent": 6
+			},
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "back-cloak",
+			"file": "parts/biped/back-cloak.glb",
+			"archetype": "biped",
+			"slot": "back",
+			"attach": "chest",
+			"label": "Cloak",
+			"styles": [
+				"fantasy",
+				"cartoon",
+				"scifi"
+			],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / back-cloak",
+			"license": "first-party",
+			"palette_cells": {
+				"primary_shade": 6,
+				"accent": 6
+			},
+			"triangles": 24,
+			"two_sided": true
+		},
+		{
+			"id": "back-fur-cape",
+			"file": "parts/biped/back-fur-cape.glb",
+			"archetype": "biped",
+			"slot": "back",
+			"attach": "chest",
+			"label": "Fur cape",
+			"styles": ["fantasy"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "barbarian",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Barbarian_Cape",
+			"license": "CC0-1.0",
+			"palette_cells": { "fur": 78 },
+			"triangles": 78,
+			"two_sided": true
+		},
+		{
+			"id": "back-jetpack",
+			"file": "parts/biped/back-jetpack.glb",
+			"archetype": "biped",
+			"slot": "back",
+			"attach": "chest",
+			"label": "Jetpack",
+			"styles": ["scifi"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / back-jetpack",
+			"license": "first-party",
+			"palette_cells": {
+				"metal": 12,
+				"emissive": 6,
+				"leather": 12
+			},
+			"triangles": 60,
+			"two_sided": false
+		},
+		{
+			"id": "back-knight-cape",
+			"file": "parts/biped/back-knight-cape.glb",
+			"archetype": "biped",
+			"slot": "back",
+			"attach": "chest",
+			"label": "Knight cape",
+			"styles": ["fantasy"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "knight",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Knight_Cape",
+			"license": "CC0-1.0",
+			"palette_cells": { "primary": 84 },
+			"triangles": 84,
+			"two_sided": true
+		},
+		{
+			"id": "back-mage-cape",
+			"file": "parts/biped/back-mage-cape.glb",
+			"archetype": "biped",
+			"slot": "back",
+			"attach": "chest",
+			"label": "Mage cape",
+			"styles": ["fantasy"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "mage",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Mage_Cape",
+			"license": "CC0-1.0",
+			"palette_cells": { "primary": 84 },
+			"triangles": 84,
+			"two_sided": true
+		},
+		{
+			"id": "back-quiver",
+			"file": "parts/biped/back-quiver.glb",
+			"archetype": "biped",
+			"slot": "back",
+			"attach": "chest",
+			"label": "Quiver",
+			"styles": ["fantasy", "cartoon"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / back-quiver",
+			"license": "first-party",
+			"palette_cells": {
+				"leather": 12,
+				"secondary_shade": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "back-rogue-cape",
+			"file": "parts/biped/back-rogue-cape.glb",
+			"archetype": "biped",
+			"slot": "back",
+			"attach": "chest",
+			"label": "Ranger cape",
+			"styles": ["fantasy"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "rogue",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Rogue_Cape",
+			"license": "CC0-1.0",
+			"palette_cells": { "secondary_shade": 84 },
+			"triangles": 84,
+			"two_sided": true
+		},
+		{
+			"id": "back-saddlebag",
+			"file": "parts/quadruped/back-saddlebag.glb",
+			"archetype": "quadruped",
+			"slot": "back",
+			"attach": "chest",
+			"label": "Saddle bag",
+			"styles": ["animal"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "fox",
+			"source": "Road Dog animals (first-party) / back-saddlebag",
+			"license": "first-party",
+			"palette_cells": {
+				"leather": 12,
+				"secondary_shade": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "back-satchel",
+			"file": "parts/biped/back-satchel.glb",
+			"archetype": "biped",
+			"slot": "back",
+			"attach": "chest",
+			"label": "Satchel",
+			"styles": [
+				"modern",
+				"fantasy",
+				"cartoon"
+			],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": true,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / back-satchel",
+			"license": "first-party",
+			"palette_cells": {
+				"leather": 12,
+				"secondary_shade": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "belt-sash",
+			"file": "parts/biped/belt-sash.glb",
+			"archetype": "biped",
+			"slot": "belt",
+			"attach": "hips",
+			"label": "Sash",
+			"styles": [
+				"fantasy",
+				"cartoon",
+				"modern"
+			],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": "slim",
+			"asymmetric": false,
+			"covers": ["sides", "front_back"],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / belt-sash",
+			"license": "first-party",
+			"palette_cells": { "accent": 12 },
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "belt-sash-broad",
+			"file": "parts/biped/belt-sash-broad.glb",
+			"archetype": "biped",
+			"slot": "belt",
+			"attach": "hips",
+			"label": "Sash",
+			"styles": [
+				"fantasy",
+				"cartoon",
+				"modern"
+			],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": "broad",
+			"asymmetric": false,
+			"covers": ["sides", "front_back"],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / belt-sash",
+			"license": "first-party",
+			"palette_cells": { "accent": 12 },
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "belt-toolbelt",
+			"file": "parts/biped/belt-toolbelt.glb",
+			"archetype": "biped",
+			"slot": "belt",
+			"attach": "hips",
+			"label": "Tool belt",
+			"styles": [
+				"modern",
+				"scifi",
+				"cartoon",
+				"fantasy"
+			],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": "slim",
+			"asymmetric": false,
+			"covers": ["sides", "front_back"],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / belt-toolbelt",
+			"license": "first-party",
+			"palette_cells": {
+				"leather": 12,
+				"metal": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "belt-toolbelt-broad",
+			"file": "parts/biped/belt-toolbelt-broad.glb",
+			"archetype": "biped",
+			"slot": "belt",
+			"attach": "hips",
+			"label": "Tool belt",
+			"styles": [
+				"modern",
+				"scifi",
+				"cartoon",
+				"fantasy"
+			],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": "broad",
+			"asymmetric": false,
+			"covers": ["sides", "front_back"],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / belt-toolbelt",
+			"license": "first-party",
+			"palette_cells": {
+				"leather": 12,
+				"metal": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "collar-band",
+			"file": "parts/quadruped/collar-band.glb",
+			"archetype": "quadruped",
+			"slot": "collar",
+			"attach": "neck",
+			"label": "Collar",
+			"styles": ["animal"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "fox",
+			"source": "Road Dog animals (first-party) / collar-band",
+			"license": "first-party",
+			"palette_cells": {
+				"leather": 6,
+				"accent": 6
+			},
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "collar-bandana",
+			"file": "parts/quadruped/collar-bandana.glb",
+			"archetype": "quadruped",
+			"slot": "collar",
+			"attach": "neck",
+			"label": "Bandana",
+			"styles": ["animal"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "fox",
+			"source": "Road Dog animals (first-party) / collar-bandana",
+			"license": "first-party",
+			"palette_cells": { "accent": 12 },
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "collar-scarf",
+			"file": "parts/quadruped/collar-scarf.glb",
+			"archetype": "quadruped",
+			"slot": "collar",
+			"attach": "neck",
+			"label": "Scarf",
+			"styles": ["animal"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "fox",
+			"source": "Road Dog animals (first-party) / collar-scarf",
+			"license": "first-party",
+			"palette_cells": {
+				"primary": 6,
+				"primary_shade": 6
+			},
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "face_extra-glasses",
+			"file": "parts/biped/face_extra-glasses.glb",
+			"archetype": "biped",
+			"slot": "face_extra",
+			"attach": "head",
+			"label": "Glasses",
+			"styles": [
+				"modern",
+				"scifi",
+				"cartoon",
+				"fantasy"
+			],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / face_extra-glasses",
+			"license": "first-party",
+			"palette_cells": { "metal": 66 },
+			"triangles": 132,
+			"two_sided": false
+		},
+		{
+			"id": "face_extra-respirator",
+			"file": "parts/biped/face_extra-respirator.glb",
+			"archetype": "biped",
+			"slot": "face_extra",
+			"attach": "head",
+			"label": "Respirator",
+			"styles": ["scifi", "modern"],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / face_extra-respirator",
+			"license": "first-party",
+			"palette_cells": {
+				"metal": 6,
+				"accent": 6,
+				"leather": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "face_extra-shades",
+			"file": "parts/biped/face_extra-shades.glb",
+			"archetype": "biped",
+			"slot": "face_extra",
+			"attach": "head",
+			"label": "Shades",
+			"styles": [
+				"modern",
+				"cartoon",
+				"scifi",
+				"fantasy"
+			],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / face_extra-shades",
+			"license": "first-party",
+			"palette_cells": {
+				"eyes": 6,
+				"secondary": 6
+			},
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "hand_l-clipboard",
+			"file": "parts/biped/hand_l-clipboard.glb",
+			"archetype": "biped",
+			"slot": "hand_l",
+			"attach": "handslot_l",
+			"label": "Clipboard",
+			"styles": [
+				"modern",
+				"scifi",
+				"cartoon",
+				"fantasy"
+			],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / hand_l-clipboard",
+			"license": "first-party",
+			"palette_cells": {
+				"leather": 6,
+				"secondary": 6,
+				"metal": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "hand_l-lantern",
+			"file": "parts/biped/hand_l-lantern.glb",
+			"archetype": "biped",
+			"slot": "hand_l",
+			"attach": "handslot_l",
+			"label": "Lantern",
+			"styles": [
+				"fantasy",
+				"modern",
+				"cartoon"
+			],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / hand_l-lantern",
+			"license": "first-party",
+			"palette_cells": {
+				"emissive": 6,
+				"metal": 12
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "hand_l-round-shield",
+			"file": "parts/biped/hand_l-round-shield.glb",
+			"archetype": "biped",
+			"slot": "hand_l",
+			"attach": "handslot_l",
+			"label": "Round shield",
+			"styles": ["fantasy"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "knight",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Round_Shield",
+			"license": "CC0-1.0",
+			"palette_cells": {
+				"leather": 110,
+				"metal": 174
+			},
+			"triangles": 284,
+			"two_sided": false
+		},
+		{
+			"id": "hand_l-spellbook",
+			"file": "parts/biped/hand_l-spellbook.glb",
+			"archetype": "biped",
+			"slot": "hand_l",
+			"attach": "handslot_l",
+			"label": "Spellbook",
+			"styles": ["fantasy"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "mage",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Spellbook",
+			"license": "CC0-1.0",
+			"palette_cells": {
+				"accent": 82,
+				"secondary_shade": 6,
+				"leather": 132,
+				"metal": 72
+			},
+			"triangles": 292,
+			"two_sided": false
+		},
+		{
+			"id": "hand_l-tablet",
+			"file": "parts/biped/hand_l-tablet.glb",
+			"archetype": "biped",
+			"slot": "hand_l",
+			"attach": "handslot_l",
+			"label": "Tablet",
+			"styles": [
+				"modern",
+				"scifi",
+				"cartoon"
+			],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / hand_l-tablet",
+			"license": "first-party",
+			"palette_cells": {
+				"metal": 6,
+				"emissive": 6
+			},
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "hand_l-wooden-shield",
+			"file": "parts/biped/hand_l-wooden-shield.glb",
+			"archetype": "biped",
+			"slot": "hand_l",
+			"attach": "handslot_l",
+			"label": "Wooden shield",
+			"styles": ["fantasy"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "barbarian",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Barbarian_Round_Shield",
+			"license": "CC0-1.0",
+			"palette_cells": {
+				"accent": 30,
+				"secondary_shade": 30,
+				"metal": 174,
+				"leather": 50
+			},
+			"triangles": 284,
+			"two_sided": false
+		},
+		{
+			"id": "hand_r-axe",
+			"file": "parts/biped/hand_r-axe.glb",
+			"archetype": "biped",
+			"slot": "hand_r",
+			"attach": "handslot_r",
+			"label": "Axe",
+			"styles": ["fantasy"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "barbarian",
+			"source": "KayKit Character Pack: Adventurers 1.0 / 1H_Axe",
+			"license": "CC0-1.0",
+			"palette_cells": {
+				"leather": 80,
+				"accent": 112,
+				"metal": 82
+			},
+			"triangles": 274,
+			"two_sided": false
+		},
+		{
+			"id": "hand_r-broom",
+			"file": "parts/biped/hand_r-broom.glb",
+			"archetype": "biped",
+			"slot": "hand_r",
+			"attach": "handslot_r",
+			"label": "Broom",
+			"styles": [
+				"modern",
+				"cartoon",
+				"fantasy"
+			],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / hand_r-broom",
+			"license": "first-party",
+			"palette_cells": {
+				"leather": 6,
+				"accent": 6
+			},
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "hand_r-knife",
+			"file": "parts/biped/hand_r-knife.glb",
+			"archetype": "biped",
+			"slot": "hand_r",
+			"attach": "handslot_r",
+			"label": "Knife",
+			"styles": ["fantasy"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "rogue",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Knife",
+			"license": "CC0-1.0",
+			"palette_cells": {
+				"metal": 156,
+				"leather": 16
+			},
+			"triangles": 172,
+			"two_sided": false
+		},
+		{
+			"id": "hand_r-mug",
+			"file": "parts/biped/hand_r-mug.glb",
+			"archetype": "biped",
+			"slot": "hand_r",
+			"attach": "handslot_r",
+			"label": "Mug",
+			"styles": [
+				"modern",
+				"fantasy",
+				"cartoon",
+				"scifi"
+			],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "barbarian",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Mug",
+			"license": "CC0-1.0",
+			"palette_cells": {
+				"leather": 144,
+				"secondary": 84,
+				"metal": 198
+			},
+			"triangles": 426,
+			"two_sided": false
+		},
+		{
+			"id": "hand_r-scanner",
+			"file": "parts/biped/hand_r-scanner.glb",
+			"archetype": "biped",
+			"slot": "hand_r",
+			"attach": "handslot_r",
+			"label": "Scanner",
+			"styles": ["scifi", "modern"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / hand_r-scanner",
+			"license": "first-party",
+			"palette_cells": {
+				"primary_shade": 6,
+				"metal": 6,
+				"emissive": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "hand_r-staff",
+			"file": "parts/biped/hand_r-staff.glb",
+			"archetype": "biped",
+			"slot": "hand_r",
+			"attach": "handslot_r",
+			"label": "Staff",
+			"styles": ["fantasy"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "mage",
+			"source": "KayKit Character Pack: Adventurers 1.0 / 2H_Staff",
+			"license": "CC0-1.0",
+			"palette_cells": {
+				"accent": 64,
+				"leather": 216,
+				"metal": 160
+			},
+			"triangles": 440,
+			"two_sided": false
+		},
+		{
+			"id": "hand_r-sword",
+			"file": "parts/biped/hand_r-sword.glb",
+			"archetype": "biped",
+			"slot": "hand_r",
+			"attach": "handslot_r",
+			"label": "Sword",
+			"styles": ["fantasy"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "knight",
+			"source": "KayKit Character Pack: Adventurers 1.0 / 1H_Sword",
+			"license": "CC0-1.0",
+			"palette_cells": {
+				"leather": 80,
+				"metal": 220
+			},
+			"triangles": 300,
+			"two_sided": false
+		},
+		{
+			"id": "hand_r-torch",
+			"file": "parts/biped/hand_r-torch.glb",
+			"archetype": "biped",
+			"slot": "hand_r",
+			"attach": "handslot_r",
+			"label": "Torch",
+			"styles": [
+				"fantasy",
+				"cartoon",
+				"scifi"
+			],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / hand_r-torch",
+			"license": "first-party",
+			"palette_cells": {
+				"leather": 6,
+				"emissive": 6
+			},
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "hand_r-wrench",
+			"file": "parts/biped/hand_r-wrench.glb",
+			"archetype": "biped",
+			"slot": "hand_r",
+			"attach": "handslot_r",
+			"label": "Wrench",
+			"styles": [
+				"modern",
+				"cartoon",
+				"scifi"
+			],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / hand_r-wrench",
+			"license": "first-party",
+			"palette_cells": {
+				"metal": 6,
+				"secondary_shade": 6
+			},
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-antlers",
+			"file": "parts/quadruped/headgear-antlers.glb",
+			"archetype": "quadruped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Antlers",
+			"styles": ["animal"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "fox",
+			"source": "Road Dog animals (first-party) / headgear-antlers",
+			"license": "first-party",
+			"palette_cells": { "leather": 24 },
+			"triangles": 48,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-beanie",
+			"file": "parts/biped/headgear-beanie.glb",
+			"archetype": "biped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Beanie",
+			"styles": [
+				"modern",
+				"cartoon",
+				"fantasy"
+			],
+			"hides": ["hair"],
+			"fits_family": "jarvis-biped",
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / headgear-beanie",
+			"license": "first-party",
+			"palette_cells": {
+				"primary": 6,
+				"primary_shade": 6,
+				"accent": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-cap",
+			"file": "parts/biped/headgear-cap.glb",
+			"archetype": "biped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Cap",
+			"styles": [
+				"modern",
+				"cartoon",
+				"scifi"
+			],
+			"hides": ["hair"],
+			"fits_family": "jarvis-biped",
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / headgear-cap",
+			"license": "first-party",
+			"palette_cells": {
+				"primary": 12,
+				"primary_shade": 6,
+				"accent": 6
+			},
+			"triangles": 48,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-crown",
+			"file": "parts/biped/headgear-crown.glb",
+			"archetype": "biped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Crown",
+			"styles": ["fantasy", "cartoon"],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / headgear-crown",
+			"license": "first-party",
+			"palette_cells": {
+				"accent": 24,
+				"emissive": 6
+			},
+			"triangles": 60,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-hardhat",
+			"file": "parts/biped/headgear-hardhat.glb",
+			"archetype": "biped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Hard hat",
+			"styles": ["modern", "scifi"],
+			"hides": ["hair"],
+			"fits_family": "jarvis-biped",
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / headgear-hardhat",
+			"license": "first-party",
+			"palette_cells": {
+				"accent": 12,
+				"primary_shade": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-headset",
+			"file": "parts/biped/headgear-headset.glb",
+			"archetype": "biped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Headset",
+			"styles": [
+				"modern",
+				"scifi",
+				"cartoon"
+			],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / headgear-headset",
+			"license": "first-party",
+			"palette_cells": {
+				"primary_shade": 12,
+				"metal": 12
+			},
+			"triangles": 48,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-horned-hat",
+			"file": "parts/biped/headgear-horned-hat.glb",
+			"archetype": "biped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Horned hat",
+			"styles": ["fantasy"],
+			"hides": ["hair"],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "barbarian",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Barbarian_Hat",
+			"license": "CC0-1.0",
+			"palette_cells": {
+				"eyes": 168,
+				"secondary_shade": 392,
+				"fur": 94
+			},
+			"triangles": 654,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-knight-helmet",
+			"file": "parts/biped/headgear-knight-helmet.glb",
+			"archetype": "biped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Knight helmet",
+			"styles": ["fantasy"],
+			"hides": ["hair"],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "knight",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Knight_Helmet",
+			"license": "CC0-1.0",
+			"palette_cells": { "metal": 480 },
+			"triangles": 480,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-mage-hat",
+			"file": "parts/biped/headgear-mage-hat.glb",
+			"archetype": "biped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Wizard hat",
+			"styles": ["fantasy"],
+			"hides": ["hair"],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "mage",
+			"source": "KayKit Character Pack: Adventurers 1.0 / Mage_Hat",
+			"license": "CC0-1.0",
+			"palette_cells": {
+				"primary": 260,
+				"secondary": 72,
+				"metal": 64
+			},
+			"triangles": 396,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-pet-cap",
+			"file": "parts/quadruped/headgear-pet-cap.glb",
+			"archetype": "quadruped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Cap",
+			"styles": ["animal"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "fox",
+			"source": "Road Dog animals (first-party) / headgear-pet-cap",
+			"license": "first-party",
+			"palette_cells": {
+				"primary": 6,
+				"primary_shade": 6
+			},
+			"triangles": 24,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-space-helmet",
+			"file": "parts/biped/headgear-space-helmet.glb",
+			"archetype": "biped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Space helmet",
+			"styles": ["scifi"],
+			"hides": ["hair"],
+			"fits_family": "jarvis-biped",
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / headgear-space-helmet",
+			"license": "first-party",
+			"palette_cells": {
+				"secondary": 6,
+				"emissive": 6,
+				"metal": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "headgear-top-hat",
+			"file": "parts/biped/headgear-top-hat.glb",
+			"archetype": "biped",
+			"slot": "headgear",
+			"attach": "head",
+			"label": "Top hat",
+			"styles": ["cartoon", "modern"],
+			"hides": ["hair"],
+			"fits_family": "jarvis-biped",
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / headgear-top-hat",
+			"license": "first-party",
+			"palette_cells": {
+				"primary": 12,
+				"accent": 6
+			},
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "tail_extra-bow",
+			"file": "parts/quadruped/tail_extra-bow.glb",
+			"archetype": "quadruped",
+			"slot": "tail_extra",
+			"attach": "tail_2",
+			"label": "Bow",
+			"styles": ["animal"],
+			"hides": [],
+			"fits_family": null,
+			"fits_size": null,
+			"asymmetric": false,
+			"covers": [],
+			"from_base": "fox",
+			"source": "Road Dog animals (first-party) / tail_extra-bow",
+			"license": "first-party",
+			"palette_cells": { "accent": 18 },
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "torso_over-apron",
+			"file": "parts/biped/torso_over-apron.glb",
+			"archetype": "biped",
+			"slot": "torso_over",
+			"attach": "chest",
+			"label": "Apron",
+			"styles": [
+				"modern",
+				"fantasy",
+				"cartoon",
+				"scifi"
+			],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": "slim",
+			"asymmetric": false,
+			"covers": ["sides"],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / torso_over-apron",
+			"license": "first-party",
+			"palette_cells": { "secondary": 18 },
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "torso_over-apron-broad",
+			"file": "parts/biped/torso_over-apron-broad.glb",
+			"archetype": "biped",
+			"slot": "torso_over",
+			"attach": "chest",
+			"label": "Apron",
+			"styles": [
+				"modern",
+				"fantasy",
+				"cartoon",
+				"scifi"
+			],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": "broad",
+			"asymmetric": false,
+			"covers": ["sides"],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / torso_over-apron",
+			"license": "first-party",
+			"palette_cells": { "secondary": 18 },
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "torso_over-plate",
+			"file": "parts/biped/torso_over-plate.glb",
+			"archetype": "biped",
+			"slot": "torso_over",
+			"attach": "chest",
+			"label": "Chest plate",
+			"styles": ["scifi", "fantasy"],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": "slim",
+			"asymmetric": false,
+			"covers": ["sides", "front_back"],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / torso_over-plate",
+			"license": "first-party",
+			"palette_cells": {
+				"metal": 24,
+				"accent": 6
+			},
+			"triangles": 60,
+			"two_sided": false
+		},
+		{
+			"id": "torso_over-plate-broad",
+			"file": "parts/biped/torso_over-plate-broad.glb",
+			"archetype": "biped",
+			"slot": "torso_over",
+			"attach": "chest",
+			"label": "Chest plate",
+			"styles": ["scifi", "fantasy"],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": "broad",
+			"asymmetric": false,
+			"covers": ["sides", "front_back"],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / torso_over-plate",
+			"license": "first-party",
+			"palette_cells": {
+				"metal": 24,
+				"accent": 6
+			},
+			"triangles": 60,
+			"two_sided": false
+		},
+		{
+			"id": "torso_over-vest",
+			"file": "parts/biped/torso_over-vest.glb",
+			"archetype": "biped",
+			"slot": "torso_over",
+			"attach": "chest",
+			"label": "Vest",
+			"styles": [
+				"modern",
+				"fantasy",
+				"scifi",
+				"cartoon"
+			],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": "slim",
+			"asymmetric": false,
+			"covers": ["sides"],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / torso_over-vest",
+			"license": "first-party",
+			"palette_cells": { "leather": 18 },
+			"triangles": 36,
+			"two_sided": false
+		},
+		{
+			"id": "torso_over-vest-broad",
+			"file": "parts/biped/torso_over-vest-broad.glb",
+			"archetype": "biped",
+			"slot": "torso_over",
+			"attach": "chest",
+			"label": "Vest",
+			"styles": [
+				"modern",
+				"fantasy",
+				"scifi",
+				"cartoon"
+			],
+			"hides": [],
+			"fits_family": "jarvis-biped",
+			"fits_size": "broad",
+			"asymmetric": false,
+			"covers": ["sides"],
+			"from_base": "office",
+			"source": "Road Dog humanoids (first-party meshes on the KayKit CC0 rig) / torso_over-vest",
+			"license": "first-party",
+			"palette_cells": { "leather": 18 },
+			"triangles": 36,
+			"two_sided": false
+		}
+	]
+};
+var biped_android_default = "/assets/biped-android-SPAWrUQ_.glb";
+var biped_athlete_default = "/assets/biped-athlete-DtUEwn6W.glb";
+var biped_barbarian_default = "/assets/biped-barbarian-BXR_6KVg.glb";
+var biped_blockhead_default = "/assets/biped-blockhead-BUhFvXOs.glb";
+var biped_casual_default = "/assets/biped-casual-BHyJ7fUM.glb";
+var biped_chibi_default = "/assets/biped-chibi-Bxfwri5H.glb";
+var biped_clips_default = "/assets/biped-clips-CWz7yF0m.glb";
+var biped_dwarf_default = "/assets/biped-dwarf-DEjAUR76.glb";
+var biped_elf_default = "/assets/biped-elf-DSn2p8-A.glb";
+var biped_knight_default = "/assets/biped-knight-7TagGbSd.glb";
+var biped_mage_default = "/assets/biped-mage-CuGGGIPA.glb";
+var biped_medic_default = "/assets/biped-medic-DBf4PPlN.glb";
+var biped_monk_default = "/assets/biped-monk-B3lBQ-Yv.glb";
+var biped_office_default = "/assets/biped-office-D3mQiTcT.glb";
+var biped_pilot_default = "/assets/biped-pilot-CHOfbDtg.glb";
+var biped_rogue_default = "/assets/biped-rogue-DfJ_4xf4.glb";
+var biped_scientist_default = "/assets/biped-scientist-D0yt0VCg.glb";
+var biped_toon_default = "/assets/biped-toon-iefMBDw8.glb";
+var biped_trooper_default = "/assets/biped-trooper-Dwei9PEu.glb";
+var biped_worker_default = "/assets/biped-worker-D2_6pD5e.glb";
+var back_backpack_default = "/assets/back-backpack-BIl1Gt8S.glb";
+var back_cloak_default = "/assets/back-cloak-cuEaLFHd.glb";
+var back_fur_cape_default = "/assets/back-fur-cape-D2k3gHln.glb";
+var back_jetpack_default = "/assets/back-jetpack-DFwGjrAn.glb";
+var back_knight_cape_default = "/assets/back-knight-cape-CzCurXXc.glb";
+var back_mage_cape_default = "/assets/back-mage-cape-9w922WuV.glb";
+var back_quiver_default = "/assets/back-quiver-CQeZB7Ei.glb";
+var back_rogue_cape_default = "/assets/back-rogue-cape-D1oQNYZH.glb";
+var back_satchel_default = "/assets/back-satchel-D8duschq.glb";
+var belt_sash_broad_default = "/assets/belt-sash-broad-Gh0ZILb5.glb";
+var belt_sash_default = "/assets/belt-sash-Coy0tHf9.glb";
+var belt_toolbelt_broad_default = "/assets/belt-toolbelt-broad-FGiMdHru.glb";
+var belt_toolbelt_default = "/assets/belt-toolbelt-BwuFY-E0.glb";
+var face_extra_glasses_default = "/assets/face_extra-glasses-joKNtL_1.glb";
+var face_extra_respirator_default = "/assets/face_extra-respirator-SfIMNnHR.glb";
+var face_extra_shades_default = "/assets/face_extra-shades-Bex2vqPC.glb";
+var hand_l_clipboard_default = "/assets/hand_l-clipboard-B_IEEyuS.glb";
+var hand_l_lantern_default = "/assets/hand_l-lantern-C4lNDGS4.glb";
+var hand_l_round_shield_default = "/assets/hand_l-round-shield-CvI5bV1s.glb";
+var hand_l_spellbook_default = "/assets/hand_l-spellbook-L5f8WNta.glb";
+var hand_l_tablet_default = "/assets/hand_l-tablet-DIuh6SNE.glb";
+var hand_l_wooden_shield_default = "/assets/hand_l-wooden-shield-DrNkEejN.glb";
+var hand_r_axe_default = "/assets/hand_r-axe-BTN60BKH.glb";
+var hand_r_broom_default = "/assets/hand_r-broom-BxqMoals.glb";
+var hand_r_knife_default = "/assets/hand_r-knife-DSSwncwB.glb";
+var hand_r_mug_default = "/assets/hand_r-mug-DmF5AdAU.glb";
+var hand_r_scanner_default = "/assets/hand_r-scanner-BnuJPFd-.glb";
+var hand_r_staff_default = "/assets/hand_r-staff-N1sWeUiz.glb";
+var hand_r_sword_default = "/assets/hand_r-sword-CB0eDc_D.glb";
+var hand_r_torch_default = "/assets/hand_r-torch-45AZMDlW.glb";
+var hand_r_wrench_default = "/assets/hand_r-wrench-CluhcS7M.glb";
+var headgear_beanie_default = "/assets/headgear-beanie-C6eIpucF.glb";
+var headgear_cap_default = "/assets/headgear-cap-eLS3KmCV.glb";
+var headgear_crown_default = "/assets/headgear-crown-Dlf5xT7c.glb";
+var headgear_hardhat_default = "/assets/headgear-hardhat-DyxeG-XR.glb";
+var headgear_headset_default = "/assets/headgear-headset-BiJH9dzE.glb";
+var headgear_horned_hat_default = "/assets/headgear-horned-hat-NSSIlYiL.glb";
+var headgear_knight_helmet_default = "/assets/headgear-knight-helmet-CBMAR4Hx.glb";
+var headgear_mage_hat_default = "/assets/headgear-mage-hat-DRA4Tprx.glb";
+var headgear_space_helmet_default = "/assets/headgear-space-helmet-COUEPZfH.glb";
+var headgear_top_hat_default = "/assets/headgear-top-hat-C6yJOo90.glb";
+var torso_over_apron_broad_default = "/assets/torso_over-apron-broad-CKrLyAU2.glb";
+var torso_over_apron_default = "/assets/torso_over-apron-tVZHjF-k.glb";
+var torso_over_plate_broad_default = "/assets/torso_over-plate-broad-BHFDptPC.glb";
+var torso_over_plate_default = "/assets/torso_over-plate-fwSaK0lQ.glb";
+var torso_over_vest_broad_default = "/assets/torso_over-vest-broad-Br6wDLxi.glb";
+var torso_over_vest_default = "/assets/torso_over-vest-C1ahyOo4.glb";
+var back_blanket_default = "/assets/back-blanket-C5TwKkoE.glb";
+var back_saddlebag_default = "/assets/back-saddlebag-CwlbXpqx.glb";
+var collar_band_default = "/assets/collar-band-Cmm973sw.glb";
+var collar_bandana_default = "/assets/collar-bandana-DjJQ8NjX.glb";
+var collar_scarf_default = "/assets/collar-scarf-gfaenITG.glb";
+var headgear_antlers_default = "/assets/headgear-antlers-ZXeXf5IL.glb";
+var headgear_pet_cap_default = "/assets/headgear-pet-cap-bntM2w75.glb";
+var tail_extra_bow_default = "/assets/tail_extra-bow-K0lP0wdP.glb";
+var quadruped_bear_default = "/assets/quadruped-bear-BuCb5zpk.glb";
+var quadruped_cat_default = "/assets/quadruped-cat-DVY9V8nN.glb";
+var quadruped_clips_default = "/assets/quadruped-clips-2V-yW4Jy.glb";
+var quadruped_dog_default = "/assets/quadruped-dog-BA9nTWgX.glb";
+var quadruped_fox_default = "/assets/quadruped-fox-CrJ64Hvi.glb";
+var quadruped_rabbit_default = "/assets/quadruped-rabbit-Bb5dEsXT.glb";
+var quadruped_wolf_default = "/assets/quadruped-wolf-Brpx2U5j.glb";
+var spirit_gigi_default = "/assets/spirit-gigi-03EkA6B9.glb";
+const CATALOG = catalog_default;
+var FILES = {
+	"../../../assets/society/figures/biped-android.glb": biped_android_default,
+	"../../../assets/society/figures/biped-athlete.glb": biped_athlete_default,
+	"../../../assets/society/figures/biped-barbarian.glb": biped_barbarian_default,
+	"../../../assets/society/figures/biped-blockhead.glb": biped_blockhead_default,
+	"../../../assets/society/figures/biped-casual.glb": biped_casual_default,
+	"../../../assets/society/figures/biped-chibi.glb": biped_chibi_default,
+	"../../../assets/society/figures/biped-clips.glb": biped_clips_default,
+	"../../../assets/society/figures/biped-dwarf.glb": biped_dwarf_default,
+	"../../../assets/society/figures/biped-elf.glb": biped_elf_default,
+	"../../../assets/society/figures/biped-knight.glb": biped_knight_default,
+	"../../../assets/society/figures/biped-mage.glb": biped_mage_default,
+	"../../../assets/society/figures/biped-medic.glb": biped_medic_default,
+	"../../../assets/society/figures/biped-monk.glb": biped_monk_default,
+	"../../../assets/society/figures/biped-office.glb": biped_office_default,
+	"../../../assets/society/figures/biped-pilot.glb": biped_pilot_default,
+	"../../../assets/society/figures/biped-rogue.glb": biped_rogue_default,
+	"../../../assets/society/figures/biped-scientist.glb": biped_scientist_default,
+	"../../../assets/society/figures/biped-toon.glb": biped_toon_default,
+	"../../../assets/society/figures/biped-trooper.glb": biped_trooper_default,
+	"../../../assets/society/figures/biped-worker.glb": biped_worker_default,
+	"../../../assets/society/figures/parts/biped/back-backpack.glb": back_backpack_default,
+	"../../../assets/society/figures/parts/biped/back-cloak.glb": back_cloak_default,
+	"../../../assets/society/figures/parts/biped/back-fur-cape.glb": back_fur_cape_default,
+	"../../../assets/society/figures/parts/biped/back-jetpack.glb": back_jetpack_default,
+	"../../../assets/society/figures/parts/biped/back-knight-cape.glb": back_knight_cape_default,
+	"../../../assets/society/figures/parts/biped/back-mage-cape.glb": back_mage_cape_default,
+	"../../../assets/society/figures/parts/biped/back-quiver.glb": back_quiver_default,
+	"../../../assets/society/figures/parts/biped/back-rogue-cape.glb": back_rogue_cape_default,
+	"../../../assets/society/figures/parts/biped/back-satchel.glb": back_satchel_default,
+	"../../../assets/society/figures/parts/biped/belt-sash-broad.glb": belt_sash_broad_default,
+	"../../../assets/society/figures/parts/biped/belt-sash.glb": belt_sash_default,
+	"../../../assets/society/figures/parts/biped/belt-toolbelt-broad.glb": belt_toolbelt_broad_default,
+	"../../../assets/society/figures/parts/biped/belt-toolbelt.glb": belt_toolbelt_default,
+	"../../../assets/society/figures/parts/biped/face_extra-glasses.glb": face_extra_glasses_default,
+	"../../../assets/society/figures/parts/biped/face_extra-respirator.glb": face_extra_respirator_default,
+	"../../../assets/society/figures/parts/biped/face_extra-shades.glb": face_extra_shades_default,
+	"../../../assets/society/figures/parts/biped/hand_l-clipboard.glb": hand_l_clipboard_default,
+	"../../../assets/society/figures/parts/biped/hand_l-lantern.glb": hand_l_lantern_default,
+	"../../../assets/society/figures/parts/biped/hand_l-round-shield.glb": hand_l_round_shield_default,
+	"../../../assets/society/figures/parts/biped/hand_l-spellbook.glb": hand_l_spellbook_default,
+	"../../../assets/society/figures/parts/biped/hand_l-tablet.glb": hand_l_tablet_default,
+	"../../../assets/society/figures/parts/biped/hand_l-wooden-shield.glb": hand_l_wooden_shield_default,
+	"../../../assets/society/figures/parts/biped/hand_r-axe.glb": hand_r_axe_default,
+	"../../../assets/society/figures/parts/biped/hand_r-broom.glb": hand_r_broom_default,
+	"../../../assets/society/figures/parts/biped/hand_r-knife.glb": hand_r_knife_default,
+	"../../../assets/society/figures/parts/biped/hand_r-mug.glb": hand_r_mug_default,
+	"../../../assets/society/figures/parts/biped/hand_r-scanner.glb": hand_r_scanner_default,
+	"../../../assets/society/figures/parts/biped/hand_r-staff.glb": hand_r_staff_default,
+	"../../../assets/society/figures/parts/biped/hand_r-sword.glb": hand_r_sword_default,
+	"../../../assets/society/figures/parts/biped/hand_r-torch.glb": hand_r_torch_default,
+	"../../../assets/society/figures/parts/biped/hand_r-wrench.glb": hand_r_wrench_default,
+	"../../../assets/society/figures/parts/biped/headgear-beanie.glb": headgear_beanie_default,
+	"../../../assets/society/figures/parts/biped/headgear-cap.glb": headgear_cap_default,
+	"../../../assets/society/figures/parts/biped/headgear-crown.glb": headgear_crown_default,
+	"../../../assets/society/figures/parts/biped/headgear-hardhat.glb": headgear_hardhat_default,
+	"../../../assets/society/figures/parts/biped/headgear-headset.glb": headgear_headset_default,
+	"../../../assets/society/figures/parts/biped/headgear-horned-hat.glb": headgear_horned_hat_default,
+	"../../../assets/society/figures/parts/biped/headgear-knight-helmet.glb": headgear_knight_helmet_default,
+	"../../../assets/society/figures/parts/biped/headgear-mage-hat.glb": headgear_mage_hat_default,
+	"../../../assets/society/figures/parts/biped/headgear-space-helmet.glb": headgear_space_helmet_default,
+	"../../../assets/society/figures/parts/biped/headgear-top-hat.glb": headgear_top_hat_default,
+	"../../../assets/society/figures/parts/biped/torso_over-apron-broad.glb": torso_over_apron_broad_default,
+	"../../../assets/society/figures/parts/biped/torso_over-apron.glb": torso_over_apron_default,
+	"../../../assets/society/figures/parts/biped/torso_over-plate-broad.glb": torso_over_plate_broad_default,
+	"../../../assets/society/figures/parts/biped/torso_over-plate.glb": torso_over_plate_default,
+	"../../../assets/society/figures/parts/biped/torso_over-vest-broad.glb": torso_over_vest_broad_default,
+	"../../../assets/society/figures/parts/biped/torso_over-vest.glb": torso_over_vest_default,
+	"../../../assets/society/figures/parts/quadruped/back-blanket.glb": back_blanket_default,
+	"../../../assets/society/figures/parts/quadruped/back-saddlebag.glb": back_saddlebag_default,
+	"../../../assets/society/figures/parts/quadruped/collar-band.glb": collar_band_default,
+	"../../../assets/society/figures/parts/quadruped/collar-bandana.glb": collar_bandana_default,
+	"../../../assets/society/figures/parts/quadruped/collar-scarf.glb": collar_scarf_default,
+	"../../../assets/society/figures/parts/quadruped/headgear-antlers.glb": headgear_antlers_default,
+	"../../../assets/society/figures/parts/quadruped/headgear-pet-cap.glb": headgear_pet_cap_default,
+	"../../../assets/society/figures/parts/quadruped/tail_extra-bow.glb": tail_extra_bow_default,
+	"../../../assets/society/figures/quadruped-bear.glb": quadruped_bear_default,
+	"../../../assets/society/figures/quadruped-cat.glb": quadruped_cat_default,
+	"../../../assets/society/figures/quadruped-clips.glb": quadruped_clips_default,
+	"../../../assets/society/figures/quadruped-dog.glb": quadruped_dog_default,
+	"../../../assets/society/figures/quadruped-fox.glb": quadruped_fox_default,
+	"../../../assets/society/figures/quadruped-rabbit.glb": quadruped_rabbit_default,
+	"../../../assets/society/figures/quadruped-wolf.glb": quadruped_wolf_default,
+	"../../../assets/society/figures/spirit-gigi.glb": spirit_gigi_default
+};
+var LEGACY_BASES = {
+	medium: "rogue",
+	small: "rogue",
+	large: "rogue"
+};
+function catalogBaseFor(recipe) {
+	const base = LEGACY_BASES[recipe.base] ?? recipe.base;
+	return CATALOG.bases.find((b) => b.archetype === recipe.archetype && b.base === base) ?? CATALOG.bases.find((b) => b.base === base) ?? null;
+}
+function basesForStyle(style, archetype = null) {
+	return CATALOG.bases.filter((b) => (!archetype || b.archetype === archetype) && (!style || b.styles.includes(style)));
+}
+Object.values(FILES);
+const PALETTE_CELLS = [
+	"skin",
+	"skin_shade",
+	"hair",
+	"eyes",
+	"primary",
+	"primary_shade",
+	"secondary",
+	"secondary_shade",
+	"accent",
+	"metal",
+	"leather",
+	"fur",
+	"fur_shade",
+	"shoes",
+	"eye_white",
+	"emissive"
+];
+const BIPED_DEFAULT_PALETTE = {
+	skin: "#f4b68f",
+	skin_shade: "#d99a75",
+	hair: "#9e5d47",
+	eyes: "#1b2427",
+	primary: "#096153",
+	primary_shade: "#07483d",
+	secondary: "#b16f51",
+	secondary_shade: "#008c55",
+	accent: "#e8c46b",
+	metal: "#919da2",
+	leather: "#9a5944",
+	fur: "#b87556",
+	fur_shade: "#8d4c39",
+	shoes: "#4a2e22",
+	eye_white: "#e6ecef",
+	emissive: "#ffd166"
+};
+const EDITABLE_CELLS = [
+	"skin",
+	"hair",
+	"primary",
+	"secondary",
+	"accent",
+	"shoes"
+];
+const PALETTE_PRESETS = [
+	{
+		id: "executive",
+		labelKey: "executive",
+		palette: {
+			skin: "#f1c4a0",
+			hair: "#3b2a20",
+			primary: "#1f2a44",
+			secondary: "#f2f2ee",
+			accent: "#c9a227",
+			shoes: "#1a1a1a",
+			leather: "#2b2b2b",
+			metal: "#c9a227"
+		}
+	},
+	{
+		id: "ranger",
+		labelKey: "ranger",
+		palette: {
+			skin: "#f4b68f",
+			hair: "#9e5d47",
+			primary: "#096153",
+			secondary: "#b16f51",
+			accent: "#e8c46b",
+			shoes: "#4a2e22"
+		}
+	},
+	{
+		id: "archivist",
+		labelKey: "archivist",
+		palette: {
+			skin: "#e9c3a3",
+			hair: "#6b6b6b",
+			primary: "#5a7a4f",
+			secondary: "#e8dcc4",
+			accent: "#e8c46b",
+			shoes: "#3a2a1e"
+		}
+	},
+	{
+		id: "scout",
+		labelKey: "scout",
+		palette: {
+			skin: "#d8a37c",
+			hair: "#2a1d15",
+			primary: "#c05b3c",
+			secondary: "#efe0cd",
+			accent: "#8fd0a0",
+			shoes: "#2b2b2b"
+		}
+	},
+	{
+		id: "mage",
+		labelKey: "mage",
+		palette: {
+			skin: "#f5ba95",
+			hair: "#252124",
+			primary: "#4a4673",
+			secondary: "#b25729",
+			accent: "#54b56b",
+			shoes: "#201e3c"
+		}
+	}
+];
+function shade(hex, amount) {
+	const [r, g, b] = hexToRgb(hex);
+	const f = 1 - amount;
+	return rgbToHex(r * f, g * f, b * f);
+}
+function hexToRgb(hex) {
+	const v = hex.replace("#", "");
+	const n = parseInt(v.length === 3 ? v.split("").map((c) => c + c).join("") : v, 16);
+	return [
+		n >> 16 & 255,
+		n >> 8 & 255,
+		n & 255
+	];
+}
+function rgbToHex(r, g, b) {
+	const to = (x) => Math.round(Math.min(255, Math.max(0, x))).toString(16).padStart(2, "0");
+	return `#${to(r)}${to(g)}${to(b)}`;
+}
+function resolvePalette(recipe) {
+	const explicit = recipe?.palette ?? {};
+	const baseDefaults = recipe?.archetype && recipe.base ? catalogBaseFor({
+		archetype: recipe.archetype,
+		base: recipe.base
+	})?.palette ?? null : null;
+	const out = {
+		...BIPED_DEFAULT_PALETTE,
+		...baseDefaults ?? {},
+		...explicit
+	};
+	if (!explicit.skin_shade && explicit.skin) out.skin_shade = shade(explicit.skin, .18);
+	if (!explicit.primary_shade && explicit.primary) out.primary_shade = shade(explicit.primary, .22);
+	if (!explicit.secondary_shade && explicit.secondary) out.secondary_shade = shade(explicit.secondary, .22);
+	if (!explicit.fur_shade && explicit.fur) out.fur_shade = shade(explicit.fur, .2);
+	return out;
+}
+function wardrobeKey(recipe) {
+	const fields = [
+		recipe.outfit,
+		recipe.inner,
+		recipe.eyewear
+	];
+	return fields.some(Boolean) ? `|${fields.map((v) => v ?? "").join("|")}` : "";
+}
+function recipeKey(recipe) {
+	const palette = PALETTE_CELLS.map((c) => recipe.palette?.[c] ?? "").join(",");
+	const parts$1 = Object.entries(recipe.parts ?? {}).filter(([, v]) => Boolean(v)).sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => `${k}=${v}`).join(";");
+	return `${recipe.archetype}/${recipe.base}|${recipe.model ?? ""}|${parts$1}|${palette}|${recipe.heightM ?? ""}|${recipe.hairStyle ?? ""}${wardrobeKey(recipe)}`;
+}
+function defaultRecipe(style = "modern") {
+	const base = basesForStyle(style)[0] ?? null;
+	return {
+		contract: 1,
+		archetype: base?.archetype ?? "biped",
+		base: base?.base ?? "rogue",
+		style,
+		parts: {},
+		palette: base ? { ...base.palette } : { ...PALETTE_PRESETS[0].palette },
+		heightM: base?.heightM
+	};
+}
+export { resolvePalette as a, recipeKey as i, PALETTE_PRESETS as n, CATALOG as o, defaultRecipe as r, EDITABLE_CELLS as t };

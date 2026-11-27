@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Road Dog — original application logo (badge + wordmark).
+  Modern urban industrial: graphite badge, charcoal face panel,
+  electric purple road accent, clean typography. Original artwork.
+-->
+<svg width="1024" height="360" viewBox="0 0 1024 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="badge">
+      <rect x="24" y="24" width="312" height="312" rx="78"/>
+    </clipPath>
+  </defs>
+
+  <g>
+    <rect x="24" y="24" width="312" height="312" rx="78" fill="#17171B"/>
+    <rect x="28" y="28" width="304" height="304" rx="74" fill="none"
+          stroke="#2E2E36" stroke-width="6"/>
+    <g clip-path="url(#badge)">
+      <path d="M 96 82
+               C 70 94 60 140 74 182
+               C 80 202 96 208 110 198
+               C 102 158 102 118 116 88 Z" fill="#C9C9D2"/>
+      <path d="M 264 82
+               C 290 94 300 140 286 182
+               C 280 202 264 208 250 198
+               C 258 158 258 118 244 88 Z" fill="#C9C9D2"/>
+      <path d="M 180 70
+               C 254 70 292 116 292 172
+               C 292 228 254 254 180 254
+               C 106 254 68 228 68 172
+               C 68 116 106 70 180 70 Z" fill="#ECECF1"/>
+      <path d="M 180 104
+               C 228 104 252 130 252 166
+               C 252 204 228 224 180 224
+               C 132 224 108 204 108 166
+               C 108 130 132 104 180 104 Z" fill="#1F1F26"/>
+      <circle cx="148" cy="150" r="12" fill="#8B5CF6"/>
+      <circle cx="212" cy="150" r="12" fill="#8B5CF6"/>
+      <path d="M 180 184
+               C 216 184 234 200 234 222
+               C 234 246 216 256 180 256
+               C 144 256 126 246 126 222
+               C 126 200 144 184 180 184 Z" fill="#ECECF1"/>
+      <path d="M 165 194 L 195 194 Q 199 194 197 200 L 185 214 Q 180 218 175 214 L 163 200 Q 161 194 165 194 Z" fill="#17171B"/>
+      <path d="M 168 252 L 192 252 L 204 336 L 156 336 Z" fill="#8B5CF6"/>
+      <rect x="177" y="262" width="8" height="14" rx="4" fill="#ECECF1"/>
+      <rect x="176" y="296" width="10" height="16" rx="5" fill="#ECECF1"/>
+      <rect x="175" y="330" width="12" height="16" rx="6" fill="#ECECF1"/>
+    </g>
+  </g>
+
+  <g font-family="DejaVu Sans, Arial, sans-serif" fill="#F4F4F7">
+    <text x="392" y="152" font-size="92" font-weight="bold" letter-spacing="6">ROAD DOG</text>
+    <text x="394" y="222" font-size="34" fill="#8B5CF6" letter-spacing="2">Your AI. Your crew. Your road.</text>
+    <rect x="396" y="248" width="120" height="6" rx="3" fill="#8B5CF6"/>
+  </g>
+</svg>

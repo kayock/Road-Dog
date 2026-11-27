@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Road Dog — application mark (square icon source). Original artwork.
+     A loyal road-dog head: floppy ears, dark face panel, electric-purple
+     road running out of the muzzle toward the viewer. -->
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="badge">
+      <rect x="64" y="64" width="896" height="896" rx="224"/>
+    </clipPath>
+  </defs>
+
+  <rect x="64" y="64" width="896" height="896" rx="224" fill="#17171B"/>
+  <rect x="72" y="72" width="880" height="880" rx="216" fill="none"
+        stroke="#2E2E36" stroke-width="12"/>
+
+  <g clip-path="url(#badge)">
+    <path d="M 318 250
+             C 250 280 226 420 258 540
+             C 274 600 320 616 356 588
+             C 336 470 336 350 366 268 Z" fill="#C9C9D2"/>
+    <path d="M 706 250
+             C 774 280 798 420 766 540
+             C 750 600 704 616 668 588
+             C 688 470 688 350 658 268 Z" fill="#C9C9D2"/>
+    <path d="M 512 176
+             C 706 176 800 314 800 462
+             C 800 614 706 682 512 682
+             C 318 682 224 614 224 462
+             C 224 314 318 176 512 176 Z" fill="#ECECF1"/>
+    <path d="M 512 280
+             C 640 280 702 352 702 448
+             C 702 548 640 604 512 604
+             C 384 604 322 548 322 448
+             C 322 352 384 280 512 280 Z" fill="#1F1F26"/>
+    <circle cx="428" cy="420" r="36" fill="#8B5CF6"/>
+    <circle cx="596" cy="420" r="36" fill="#8B5CF6"/>
+    <path d="M 512 470
+             C 606 470 654 516 654 574
+             C 654 640 606 668 512 668
+             C 418 668 370 640 370 574
+             C 370 516 418 470 512 470 Z" fill="#ECECF1"/>
+    <path d="M 470 500 L 554 500 Q 566 500 558 516 L 522 556 Q 512 566 502 556 L 466 516 Q 458 500 470 500 Z" fill="#17171B"/>
+    <rect x="500" y="580" width="24" height="18" rx="9" fill="#B9B9C4"/>
+    <path d="M 470 668 L 554 668 L 606 1024 L 418 1024 Z" fill="#8B5CF6"/>
+    <rect x="502" y="700" width="22" height="44" rx="11" fill="#ECECF1"/>
+    <rect x="498" y="790" width="30" height="52" rx="14" fill="#ECECF1"/>
+    <rect x="494" y="900" width="38" height="60" rx="16" fill="#ECECF1"/>
+  </g>
+</svg>
